@@ -1,0 +1,75 @@
+    /* Buttons  */
+    
+    .btn {
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        text-align: center;
+        cursor: pointer;
+        display: inline-block;
+        transition: all 0.15s linear;
+        white-space: normal;
+    }
+    
+    .cta-btn {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        font-weight: 500;
+        
+    }
+    
+    .get-started {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--green);
+        color: var(--violet);
+        font-weight: 700;
+        width: 15rem;
+        height: 3.5rem;
+    }
+
+    .get-started-bigger {
+        border-radius: 30px;
+        width: 150px;
+        padding: 2.2rem 0;
+        margin: 0 auto;
+    }
+
+    @media(min-width:1240px) {
+        .get-started-bigger {
+            width: 25rem;
+            height: 5rem;
+            padding: 0;
+        }
+    }
+
+
+    @media(min-width:1240px) {
+        .get-started-bigger {
+            margin: 0;
+        }
+    }
+    
+    .learn-more {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--violet);
+        border-radius: 30px;
+        color: white;
+        width: 25rem;
+        height: 5rem;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .get-started:hover,
+    .learn-more:hover,
+    .get-started:focus,
+    .learn-more:focus,
+    .get-started:active,
+    .learn-more:active {
+        background: var(--light-blue);
+        color: var(--dark-blue);
+    }

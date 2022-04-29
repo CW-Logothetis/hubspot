@@ -1,0 +1,71 @@
+/* Typography */
+
+h1, h2, p, ul, li {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-decoration: none;
+    padding: 0;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: (--light-blue)
+}
+
+.very-large-text {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 6.6rem;
+    margin-bottom: 3rem;
+}
+
+.large-text {
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 6.6rem;
+}
+
+.medium-text {
+    font-size: 2.6rem;
+    line-height: 4rem;
+}
+
+
+.small-text {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3.8rem;
+}
+
+.small-text_bold {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 6.6rem;
+}
+
+.p-text {
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+.nav-text {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: #ffffff;
+}
+
+.text_bold {
+    font-weight: 700;
+}
+
+.opacity-50pc {
+    opacity: 0.5;
+}

@@ -1,0 +1,18 @@
+.how-works__bg-color-font {
+    background-color: var(--violet);
+    color: #ffffff;
+    /* padding: 3rem 0 10rem 0; */
+}
+
+.how-works_hero-text {
+   height: auto;
+}
+
+
+
+.out-of-box__bg-color {
+    background-color: var(--off-white);
+}
+
+
+

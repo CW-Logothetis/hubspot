@@ -1,0 +1,13 @@
+<svg width="128" height="168" viewBox="0 0 128 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 168H127C127.552 168 128 167.552 128 167V40.4142C128 40.149 127.895 39.8946 127.707 39.7071L88.2929 0.292893C88.1054 0.105357 87.851 0 87.5858 0H1C0.447715 0 0 0.447711 0 0.999996V167C0 167.552 0.447715 168 1 168Z" fill="#55BEEF"/>
+<mask id="mask0_60_3675" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="128" height="168">
+<path d="M4 168H124C126.209 168 128 166.209 128 164V40.8284C128 40.298 127.789 39.7893 127.414 39.4142L89.1716 1.17157C88.4214 0.421427 87.404 0 86.3431 0H4C1.79086 0 0 1.79087 0 4V164C0 166.209 1.79086 168 4 168Z" fill="#55BEEF"/>
+</mask>
+<g mask="url(#mask0_60_3675)">
+<path d="M88 40V-4L132 40H88Z" fill="#0C1E3C"/>
+</g>
+<path d="M24 88H64H104" stroke="#0C1E3C" stroke-width="8" stroke-linecap="round"/>
+<path d="M24 64H44H64" stroke="#0C1E3C" stroke-width="8" stroke-linecap="round"/>
+<path d="M24 112H64H104" stroke="#0C1E3C" stroke-width="8" stroke-linecap="round"/>
+<path d="M24 136H64" stroke="#0C1E3C" stroke-width="8" stroke-linecap="round"/>
+</svg>

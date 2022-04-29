@@ -1,0 +1,94 @@
+/* Page specific CSS */
+@import "home.css";
+@import "how-works.css";
+@import "product-feature.css";
+
+/* Components  */
+@import "buttons.css";
+@import "feature-grid_img.css";
+@import "feature_img.css";
+@import "product-feature_hero.css";
+@import "footer.css";
+@import "header.css";
+@import "three-column.css";
+@import "solutions-grid.css";
+
+/* General CSS */
+@import "layout.css";
+@import "typography.css";
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-size: 47%;  
+    --violet: #5342F5;
+    --dark-blue: #0C1E3C;
+    --medium-blue: #4AA5D0;
+    --light-blue: #55BEEF;
+    --green: #60D956;
+    --yellow: #F5BE42;
+    --red: #F43E53;
+    --dark-grey: #68696B;
+    --medium-grey: #DADCDF;
+    --light-grey: #F1F1F1;
+    --lightest-grey: #F5F6FA;
+    --off-white: #FAFAFB;
+}
+
+.primary-color {
+    color: var(--dark-blue);
+}
+
+.secondary-color {
+    color: var(--violet);
+}
+
+.primary-bg-color {
+    background-color: #ffffff;
+}
+
+@media (min-width: 600px) {
+    html {
+    font-size: 53%; 
+    }
+}
+
+@media (min-width: 900px) {
+    html {
+    font-size: 62.5%; 
+    }
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-size: 1em; */
+    font-family: 'Ubuntu', sans-serif;
+    color: #0C1E3C;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+
+
+.lightest-grey_bg {
+    background-color: var(--lightest-grey);
+}
+
+.light-grey_bg {
+    background-color: var(--light-grey);
+}
+
+.dark-blue_bg {
+    background-color: var(--dark-blue);
+}
+
